@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Admin | Pak Damar Elektronik</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Orbitron:wght@400..900&display=swap');
+  </style>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      color: #fff;
+      font-family: 'EB Garamond', serif;
+      min-height: 100vh;
+      padding: 30px;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
+      text-align: center;
+      color: #f2f2f2;
+      margin-bottom: 40px;
+    }
+
+    .table-container {
+      background-color: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    table {
+      color: #fff;
+    }
+
+    thead {
+      background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    th {
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    tbody tr:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      transition: 0.3s;
+    }
+
+    .btn-back {
+      background-color: #222;
+      color: #fff;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+      transition: 0.3s;
+      padding: 10px 20px;
+      margin-top: 30px;
+    }
+
+    .btn-back:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Dashboard Admin</h1>
+
+    <div class="table-container">
+      <h4 class="mb-3 text-center">Data Member / Client</h4>
+      <div class="table-responsive">
+        <table class="table table-dark table-striped align-middle">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>Email</th>
+              <th>Nomor HP</th>
+              <th>Tanggal Bergabung</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sonia Putri</td>
+              <td>sonia@gmail.com</td>
+              <td>081234567890</td>
+              <td>12 Januari 2025</td>
+              <td>Aktif</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Farrel Ardiansyah</td>
+              <td>farrel_ardi@gmail.com</td>
+              <td>081298745612</td>
+              <td>8 Februari 2025</td>
+              <td>Aktif</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Charisma Dewi</td>
+              <td>charisma.dewi@mail.com</td>
+              <td>082135798642</td>
+              <td>25 Maret 2025</td>
+              <td>Nonaktif</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Ralmon Sitorus</td>
+              <td>ralmon.toko@gmail.com</td>
+              <td>081333444555</td>
+              <td>17 April 2025</td>
+              <td>Aktif</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="table-container mt-5">
+      <h4 class="mb-3 text-center">Kategori Tambahan: Riwayat Pembelian</h4>
+      <div class="table-responsive">
+        <table class="table table-dark table-hover align-middle">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Pembeli</th>
+              <th>Produk</th>
+              <th>Tanggal Pembelian</th>
+              <th>Jumlah</th>
+              <th>Total (Rp)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sonia Putri</td>
+              <td>Smart TV Samsung 42"</td>
+              <td>10 September 2025</td>
+              <td>1</td>
+              <td>4.500.000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Farrel Ardiansyah</td>
+              <td>Laptop ASUS Vivobook</td>
+              <td>15 September 2025</td>
+              <td>1</td>
+              <td>8.200.000</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Charisma Dewi</td>
+              <td>Headset Bluetooth JBL</td>
+              <td>20 September 2025</td>
+              <td>2</td>
+              <td>1.000.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="login.html" class="btn btn-back mt-4">Kembali ke Login</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
